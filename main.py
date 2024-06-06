@@ -18,7 +18,7 @@ def divide(a, b):
     if b != 0:
         return a / b
     else:
-        return "На ноль делить нельзя!"
+        return -1
 
 
 def calculator(a, b, operator):
