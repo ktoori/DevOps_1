@@ -12,6 +12,10 @@ def multiply(a, b):
     """Возвращает произведение a и b."""
     return a * b
 
+def power(a, c):
+    """Возвращает произведение a и b."""
+    return pow(a, c)
+
 
 def divide(a, b):
     """Возвращает частное от деления a на b."""
