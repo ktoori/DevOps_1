@@ -1,16 +1,20 @@
 def add(a, b):
     """Возвращает сумму a и b."""
-    #return a + b
+    return a + b
 
 
 def subtract(a, b):
     """Возвращает разницу между a и b."""
-    #return a - b
+    return a - b
 
 
 def multiply(a, b):
     """Возвращает произведение a и b."""
-    #return a * b
+    return a * b
+
+def power(a, c):
+    """Возвращает произведение a и b."""
+    return pow(a, c)
 
 
 def divide(a, b):
@@ -33,3 +37,4 @@ def calculator(a, b, operator):
         return divide(a, b)
     else:
         return -1
+
