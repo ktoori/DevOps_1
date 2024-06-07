@@ -21,4 +21,4 @@ jobs:
         pip install -r requirements.txt
         pip install black
     - name: Check code formating
-      run: black --check .
+      run: black --check --diff .
