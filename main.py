@@ -37,3 +37,4 @@ def calculator(a, b, operator):
         return divide(a, b)
     else:
         return -1
+
