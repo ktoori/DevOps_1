@@ -12,6 +12,7 @@ jobs:
     - name: Setup Python
       uses: actions/setup-python@v2
       with:
+        options: "--check"
         python-version: '3.9'
 
     - name: Install dependencies
