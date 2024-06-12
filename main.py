@@ -23,13 +23,13 @@ def divide(a, b):
 
 def calculator(a, b, operator):
     """Основная функция, которая демонстрирует работу арифметических операций."""
-    if operator == '+':
+    if operator == "+":
         return add(a, b)
-    elif operator == '-':
+    elif operator == "-":
         return subtract(a, b)
-    elif operator == '*':
+    elif operator == "*":
         return multiply(a, b)
-    elif operator == '/':
+    elif operator == "/":
         return divide(a, b)
     else:
         return -1
